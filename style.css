@@ -1,0 +1,220 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    font-size: 14px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 14px;
+}
+
+header {
+    background-color: #161b22;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header form input{
+    border: 2px solid gray;
+    border-radius: 3px;
+    width: 180px;
+    height: 20px;
+    padding: 3px 3px 3px 10px;
+    background-color: #0b0d10;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+}
+.options li {
+    padding: 10px;
+    color: aliceblue;
+}
+
+.profile-icons {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.projects {
+    background-color: #0D1117;
+    width: 18%;
+    height: 680px;
+    color: white;
+    padding: 15px 35px 35px 35px;
+}
+
+.top-repositories {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.find-repository {
+    border: 2px solid gray;
+    border-radius: 3px;
+    width: 93%;
+    height: 20px;
+    padding: 3px 10px 3px 5px;
+    background-color: #0b0d10;
+}
+
+.projects form {
+    padding-bottom: 20px;
+}
+
+.new {
+    background-color: #238636;
+    color: white;
+    padding: 3px 12px 3px 12px;
+    border-radius: 5px;
+}
+
+.profile-repositories {
+    display: flex;
+    align-items: center;
+}
+
+.user-repositories {
+    padding-bottom: 30px;
+}
+
+.user-repositories li{
+    padding-top: 10px;
+    margin: 0;
+    padding: 5px 0 5px 30px;
+    list-style: none;
+    background-image: url(src/cris.jpeg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+}
+
+.recent-activity {
+    border: 1px dashed gray;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.projects p {
+    font-size: 12px;
+    color: gray;
+}
+
+main {
+    background-color: #010409;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.posts {
+    color: white;
+    width: 52%;
+    padding: 30px;
+}
+
+.posts form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.posts form li {
+    padding-right: 20px;
+}
+
+.post-type {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-bal img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.profile-bal {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bal-post img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.bal-post {
+    background-color: #0D1117;
+    border: 1px solid rgba(78, 77, 77, 0.489);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.changes {
+    color:white;
+    width: 350px;
+    padding: 20px;
+}
+
+.changes li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+footer {
+    display: flex;
+    padding-top: 40px;
+}
+
+footer nav {
+    display: flex;
+    padding-right: 150px;
+    padding-top: 0px;
+}
+footer nav p {
+    padding: 10px;
+    font-size: 12px;
+    color: gray;
+}
+
+footer li {
+    font-size: 12px;
+    color: gray;
+}
